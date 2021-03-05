@@ -32,7 +32,6 @@
             };
 
             $(window).resize(function(){
-                
                 var size = $('body').width();
                 
                 if (size > 1390) {
@@ -46,14 +45,32 @@
                 };
             });
             
-            $(".pf_st_cut>ul>li").click(function(){
+            $(".slide_1 .pf_st_cut>ul>li").click(function(){
                 var i = $(this).index();
 
-                $(".slide .pf_img_container .pf_img_1").css('display', 'none');
-                $(".slide .pf_img_container .pf_img_1").eq(i).css('display','block');
+                $(".slide_1 .pf_img_container .pf_img_1").css('display', 'none');
+                $(".slide_1 .pf_img_container .pf_img_1").eq(i).css('display','block');
                 
-                $(".slide .pf_txt_container .mpf_img .pf_img_1").css('display', 'none');
-                $(".slide .pf_txt_container .mpf_img .pf_img_1").eq(i).css('display','block');
+                $(".slide_1 .pf_txt_container .mpf_img .pf_img_1").css('display', 'none');
+                $(".slide_1 .pf_txt_container .mpf_img .pf_img_1").eq(i).css('display','block');
+            });
+            $(".slide_2 .pf_st_cut>ul>li").click(function(){
+                var i = $(this).index();
+
+                $(".slide_2 .pf_img_container .pf_img_1").css('display', 'none');
+                $(".slide_2 .pf_img_container .pf_img_1").eq(i).css('display','block');
+                
+                $(".slide_2 .pf_txt_container .mpf_img .pf_img_1").css('display', 'none');
+                $(".slide_2 .pf_txt_container .mpf_img .pf_img_1").eq(i).css('display','block');
+            });
+            $(".slide_3 .pf_st_cut>ul>li").click(function(){
+                var i = $(this).index();
+
+                $(".slide_3 .pf_img_container .pf_img_1").css('display', 'none');
+                $(".slide_3 .pf_img_container .pf_img_1").eq(i).css('display','block');
+            
+                $(".slide_3 .pf_txt_container .mpf_img .pf_img_1").css('display', 'none');
+                $(".slide_3 .pf_txt_container .mpf_img .pf_img_1").eq(i).css('display','block');
             });
         });
 	</script>
@@ -152,66 +169,65 @@
             <div class="section_content section_content3">
 <!--               포트폴리오 1-->
                 <div class="slide slide_1">
-                    <h2>영 상 제 목</h2>
+                    <h2>루미큐브 광고 공모전</h2>
                     <div class="pf_img_container">
                         <div class="image">
-                            <div class="pf_img_1" style="display:block;"><img src="img/0.jpg" /></div>
-                            <div class="pf_img_1"><img src="img/1.jpg" /></div>
-                            <div class="pf_img_1"><img src="img/2.jpg" /></div>
-                            <div class="pf_img_1"><img src="img/3.jpg" /></div>
-                            <div class="pf_img_1"><img src="img/4.jpg" /></div>
-                            <div class="pf_img_1"><img src="img/5.jpg" /></div>
+                            <div class="pf_img_1" style="display:block;"><img src="img/thumb1-1-1.jpg" /></div>
+                                    <div class="pf_img_1"><img src="img/thumb1-2-1.jpg" /></div>
+                                    <div class="pf_img_1"><img src="img/thumb1-3-1.jpg" /></div>
+                                    <div class="pf_img_1"><img src="img/thumb1-4-1.jpg" /></div>
+                                    <div class="pf_img_1"><img src="img/thumb1-5-1.jpg" /></div>
+                                    <div class="pf_img_1"><img src="img/thumb1-6-1.jpg" /></div>
                         </div>   
                         <div class="pf_st_cut">
                             <ul>
-                                <li><img src="img/thumb0.jpg"></li>
-                                <li><img src="img/thumb1.jpg"></li>
-                                <li><img src="img/thumb2.jpg"></li>
-                                <li><img src="img/thumb3.jpg"></li>
-                                <li><img src="img/thumb4.jpg"></li>
-                                <li><img src="img/thumb5.jpg"></li>
+                                <li><img src="img/thumb1-1.jpg"></li>
+                                <li><img src="img/thumb1-2.jpg"></li>
+                                <li><img src="img/thumb1-3.jpg"></li>
+                                <li><img src="img/thumb1-4.jpg"></li>
+                                <li><img src="img/thumb1-5.jpg"></li>
+                                <li><img src="img/thumb1-6.jpg"></li>
                             </ul>
                         </div>
                     </div>
                     <div class="pf_txt_container" >
-                        <h3 class="pf_title">영상제목</h3>
-                        <div class="mpf_img mpf_img_2">
+                            <div class="mpf_img mpf_img_2">
                                 <div>
-                                    <div class="pf_img_1" style="display:block;"><img src="img/0.jpg" /></div>
-                                    <div class="pf_img_1"><img src="img/1.jpg" /></div>
-                                    <div class="pf_img_1"><img src="img/2.jpg" /></div>
-                                    <div class="pf_img_1"><img src="img/3.jpg" /></div>
-                                    <div class="pf_img_1"><img src="img/4.jpg" /></div>
-                                    <div class="pf_img_1"><img src="img/5.jpg" /></div>
+                                    <div class="pf_img_1" style="display:block;"><img src="img/thumb1-1-1.jpg" /></div>
+                                    <div class="pf_img_1"><img src="img/thumb1-2-1.jpg" /></div>
+                                    <div class="pf_img_1"><img src="img/thumb1-3-1.jpg" /></div>
+                                    <div class="pf_img_1"><img src="img/thumb1-4-1.jpg" /></div>
+                                    <div class="pf_img_1"><img src="img/thumb1-5-1.jpg" /></div>
+                                    <div class="pf_img_1"><img src="img/thumb1-6-1.jpg" /></div>
                                 </div>    
                                 <div class="pf_st_cut">
                                     <ul>
-                                        <li><img src="img/thumb0.jpg"></li>
-                                        <li><img src="img/thumb1.jpg"></li>
-                                        <li><img src="img/thumb2.jpg"></li>
-                                        <li><img src="img/thumb3.jpg"></li>
-                                        <li><img src="img/thumb4.jpg"></li>
-                                        <li><img src="img/thumb5.jpg"></li>
+                                        <li><img src="img/thumb1-1.jpg"></li>
+                                        <li><img src="img/thumb1-2.jpg"></li>
+                                        <li><img src="img/thumb1-3.jpg"></li>
+                                        <li><img src="img/thumb1-4.jpg"></li>
+                                        <li><img src="img/thumb1-5.jpg"></li>
+                                        <li><img src="img/thumb1-6.jpg"></li>
                                     </ul>
                                 </div>
                         </div>
                         <div>
                             <span class="pf_name">프로젝트 명:</span>
-                            <span class="pf_txt">테스트 프로젝트 입니다.</span>
+                            <span class="pf_txt">루미큐브 광고 영상입니다.</span>
                         </div>
                         <div>
                             <span class="pf_name">제작 소요기간: </span>
-                            <span class="pf_txt">2020.9 2주</span>
+                            <span class="pf_txt">2020.12 2주</span>
                         </div>
                         <div>
                             <span class="pf_name">설명:</span>
-                            <span class="pf_txt">영상을 제작해 봅니다.</span>
+                            <span class="pf_txt">모던하고 고급스러운 분위기에서도 어울릴 수 있는 보드게임 <br> 컨셉으로 제작하였습니다.</span>
                         </div>
                         <div>
                             <span class="pf_name">작업툴:</span>
-                            <span class="pf_txt">여러가지 영상툴을 사용합니다.</span>
+                            <span class="pf_txt">갤럭시노트 20 ultra(촬영장비), 프리미어 프로</span>
                         </div>
-                        <div class="pf_gosite"><a href="https://www.youtube.com/embed/r4SRKP9RS1U" class="portfolio_btn">CLICK TO PLAY</a></div>    
+                        <div class="pf_gosite"><a href=" https://www.youtube.com/embed/E5gzUNit-XQ" class="portfolio_btn">CLICK TO PLAY</a></div>    
                     </div>
                 </div>
 <!--                포트폴리오 2-->
